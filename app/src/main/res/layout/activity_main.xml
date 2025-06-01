@@ -1,0 +1,51 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textStudentInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student info"
+            android:textSize="16sp"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/btnFetchGrades"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Завантажити оцінки" />
+
+        <Button
+            android:id="@+id/btnProcessGrades"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Збільшити всі оцінки на 5" />
+
+        <Button
+            android:id="@+id/btnMultiplyGrades"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Помножити оцінки на 2" />
+
+        <Button
+            android:id="@+id/btnCreateGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Створити групу і знайти топ-студента" />
+
+        <Button
+            android:id="@+id/btnShowAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Показати всіх студентів" />
+
+
+    </LinearLayout>
+</ScrollView>
